@@ -3,13 +3,37 @@
   background-color: #1e1f29;
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
   height: 100vh;
   justify-content: center;
+}
+
+.ajuste {
+  display: flex;
   gap: 1rem;
 }
 
+.ajuste2 {
+  align-items: center;
+  border: solid white 0.4rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.time {
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+.longitud {
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
 .hora {
-  width: 12rem;
   border: dashed white 0.4rem;
   border-radius: 50%;
   color: whitesmoke;
@@ -17,15 +41,16 @@
   outline: solid 1rem #fc2673;
   padding: 5rem 1rem;
   text-align: center;
+  width: 12rem;
 }
 
-button{
-  font-size: 4rem;
-  color: whitesmoke;
-  background-color:transparent;
+button {
+  background-color: transparent;
   border: none;
+  color: whitesmoke;
+  font-size: 3.5rem;
 }
 
-button:hover{
+button:hover {
   color: bisque;
 }
